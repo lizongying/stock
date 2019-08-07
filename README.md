@@ -4,17 +4,19 @@
 ## search
 查询股票代码
 ```
-..\venv\Scripts\python search.py 300270
+.\venv\Scripts\python search.py 300270
 ```
 
 ## data
 获取股票数据
 ```
-..\venv\Scripts\python data.py 300270
+.\venv\Scripts\python data.py 300270
 ```
 
 ## analysis & predict
 分析、预测股票数据(以收盘价计算)
 ```
-..\venv\Scripts\python data.py 300270 20190909
+.\venv\Scripts\python data.py 300270 20190909
 ```
+
+## 如果是windows 可以直接双击run文件执行命令
