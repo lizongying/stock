@@ -141,6 +141,7 @@ def draw():
     plt.gca().yaxis.set_major_locator(mpt.MaxNLocator())
     plt.gcf().autofmt_xdate()
     ax.tick_params(axis='x', colors='w')
+    plt.ylabel('Stock price and Volume')
     ax1v = ax.twinx()
     ax1v.fill_between(range(len(data_stock)), data_volume, facecolor='#00ffe8', alpha=.4)
     ax1v.grid(False)
